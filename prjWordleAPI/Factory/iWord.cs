@@ -2,6 +2,6 @@
 {
     public interface iWord
     {
-      String[] genWord();
+      String genWord();
     }
 }
