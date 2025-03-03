@@ -3,6 +3,8 @@
     public class GenerateWord : iWord
     {
         String[] arrWords = new String[50];
+
+
         public string[] genWord()
         {
             arrWords[0] = "apple";
@@ -58,5 +60,7 @@
 
             return arrWords;
         }
+
+
     }
 }
