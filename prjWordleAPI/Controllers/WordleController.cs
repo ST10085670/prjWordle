@@ -13,7 +13,7 @@ namespace prjWordleAPI.Controllers
             wordFactory langFactory = new wordFactory();
             iWord langInstance = langFactory.GetLang(lang);
             word w = word.getInstance();
-            return w.Single(langInstance.getName());
+            return w.Random(langInstance.genWord());
         }
     }
 }
