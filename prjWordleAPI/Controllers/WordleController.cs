@@ -3,8 +3,6 @@ using prjWordleAPI.Factory;
 
 namespace prjWordleAPI.Controllers
 {
-    [ApiController]
-    [Route("api/[controller]")]
     public class WordleController : ControllerBase
     {
         private readonly WordFactory _wordFactory;
@@ -124,3 +122,4 @@ namespace prjWordleAPI.Controllers
         }
     }
 }
+    
